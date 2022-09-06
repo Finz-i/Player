@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(52, 52, 52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorMode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+}
+
+.colorMode button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.1s all;
+
+}
+
+.colorMode button:hover{
+    background-color: rgb(235, 235, 235);
+}
+    
+.colorMode button:active {
+    background-color: rgb(200, 200, 200);
+    margin-top: 5px;
+}
+
+.colorMode img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
