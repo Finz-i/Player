@@ -21,16 +21,15 @@ body {
     border-radius: 100%;
     cursor: pointer;
     transition: 0.1s all;
-
 }
 
-.colorMode button:hover{
+.colorMode button:hover {
     background-color: rgb(235, 235, 235);
 }
-    
+
 .colorMode button:active {
     background-color: rgb(200, 200, 200);
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 .colorMode img {
