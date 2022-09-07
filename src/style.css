@@ -7,11 +7,15 @@ body {
 }
 
 .colorMode {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 60px;
-    margin-top: 10px;
+    height: 60px;
+    z-index: 1;
+    left: 150px;
+    bottom: 870px;
 }
 
 .colorMode button {
@@ -42,13 +46,17 @@ body {
 
 /* Player body */
 .player{
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 10px;
     width: 1400px;
     height: 900px;
     background-color: black;
     opacity: 70%;
     border-radius: 0 15px 15px 15px;
+    padding: 6px;
 }
 
 .player .navbar{
