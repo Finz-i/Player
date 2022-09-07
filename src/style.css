@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 60px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .colorMode button {
@@ -31,7 +31,7 @@ body {
 
 .colorMode button:active {
     background-color: rgb(200, 200, 200);
-    margin-top: 2px;
+    margin-top: 3px;
 }
 
 .colorMode img {
@@ -43,10 +43,14 @@ body {
 /* Player body */
 .player{
     position: relative;
-    margin-top: 80px;
-    width: 800px;
-    height: 650px;
+    margin-top: 10px;
+    width: 1400px;
+    height: 900px;
     background-color: black;
-    opacity: 60%;
-    border-radius: 15px 0 15px 15px;
+    opacity: 70%;
+    border-radius: 0 15px 15px 15px;
+}
+
+.player .navbar{
+
 }
