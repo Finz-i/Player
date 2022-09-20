@@ -1,29 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
-    <script src="index.js"></script>
-    <title>Friendly player</title>
-</head>
-<body>
 
-    <div class="colorMode">
-        <button id="theme">
-            <img src="img/day-and-night.png" alt="#" id="theme-icon">
-        </button>
-    </div>
-    
-    <div class="player">
-        
-        <div class="topPart">
-            <div class="navbar"></div>
-            <div class="display"></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+        <script src="index.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,500&display=swap"
+            rel="stylesheet">
+        <title>Friendly player</title>
+    </head>
+
+    <body>
+
+        <div class="colorMode">
+            <button id="theme">
+                <img src="img/day-and-night.png" alt="#" id="theme-icon">
+            </button>
         </div>
-        <div class="buttons"></div>
-    </div> 
-</body>
+
+        <div class="player">
+            <div class="navbar"></div>
+            <div class="display">
+            </div>
+
+            <div class="settings">
+                <div class="volume-wrapper">
+                    <button class="volume-none">
+                        <img src="" alt="" class="volume-none-img">
+                    </button>
+                    <input type="range" min="0" max="100" step="1" class="volume">
+                    <div class="volume-output-wrapper">
+                        <output class="volume-output">
+
+                        </output>
+                    </div>
+                </div>
+                <button class="sound">   
+                    <img src="img/sound.svg" alt="" class="sound-img">
+                </button>
+                <div class="movement">
+                </div>
+
+                <div class="buttons">
+                    <button class="random size">
+                        <img src="" alt="" class="random-img ">
+                    </button>
+                    <button class="next size">
+                        <img src="" alt="" class="next-img ">
+                    </button>
+                    <button class="pull size">
+                        <img src="" alt="" class="pull-img ">
+                    </button>
+                    
+                    <div class="move-wrapper">
+                        <button class="move">
+                            <img src="img/play.svg" alt="" class="move-img">
+                        </button>
+                    </div>
+        
+                    <button class="push size">
+                        <img src="" alt="" class="push-img ">
+                    </button>
+                    <button class="next next2 size">
+                        <img src="" alt="" class="next2-img ">
+                    </button>
+                    <button class="loop size">
+                        <img src="" alt="" class="loop-img ">
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+
 </html>
